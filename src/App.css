@@ -1,0 +1,44 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.calculator-Container {
+  width: 400px;
+  height: 450px;
+  margin: 0 auto;
+  display: flex;
+  background-color: #abaaaa;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 auto;
+  margin-top: 1.5rem;
+  box-shadow: -1px 4px 1px 1px white;
+}
+.freeCodeCamp-Logo {
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  user-select: none;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  height: 80px;
+  width: 80px;
+  margin: 0.25rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e9e6e5;
+}
